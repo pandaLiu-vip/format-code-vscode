@@ -1,9 +1,10 @@
-# Format Code
+# Code Tools
 
 author: 刘晨辉
 <p align="left"><img src="images/author.png" width="100" alt="author"></p>
 
-`format-code` 是一个用于 VS Code 的小工具扩展，当前提供 `Dos2Unix` 命令，用来将 Windows 行尾格式 `CRLF (\r\n)` 转换为 Unix 行尾格式 `LF (\n)`，并去掉常见的 `^M`。
+`Code Tools` 是一个用于 VS Code 的小工具扩展集合，其他功能将陆续完善，欢迎大家提需求。
+1、`Dos2Unix` 命令，用来将 Windows 行尾格式 `CRLF (\r\n)` 转换为 Unix 行尾格式 `LF (\n)`，并去掉常见的 `^M`
 
 ## Features
 
@@ -15,6 +16,10 @@ author: 刘晨辉
 - 批量处理文件夹时会显示进度，并在完成后给出转换结果汇总。
 
 ## Usage
+
+## 1、Dos2Unix说明
+
+![本地动图](images/dos2unix.gif)
 
 ### 处理单个文件
 
